@@ -1,0 +1,16 @@
+[package]
+name = "xivapi-rust"
+version = "0.1.0"
+edition = "2021"
+description = "A Rust wrapper for the XIVAPI"
+authors = ["glazk0 <glazk0@peerat.dev>"]
+repository = "https://github.com/carbuncle-fxiv/xivapi-rust"
+keywords = ["xivapi", "xiv", "ffxiv", "final fantasy xiv", "final fantasy 14", "final fantasy", "xivapi-rust", "xivapi-rs", "xivapi-rust", "xivapi-rs"]
+license = "MIT"
+
+[dependencies]
+reqwest = { version = "0.11.22", features = ["json"] }
+serde = { version = "1.0.190", features = ["derive"] }
+serde_json = "1.0.108"
+thiserror = "1.0.50"
+tokio = { version = "1.33.0", features = ["full"] }
