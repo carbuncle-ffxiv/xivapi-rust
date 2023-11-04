@@ -28,7 +28,7 @@ impl Config {
             "https://xivapi.com".to_string()
         };
         Self {
-            url: url,
+            url,
             key,
             language,
             snake_case,
